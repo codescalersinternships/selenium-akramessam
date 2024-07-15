@@ -32,5 +32,4 @@ class LoginPage:
         pass_input.send_keys(pswd)
         submit = self.browser.find_element(*self.SUBMIT)
         submit.send_keys(Keys.ENTER)
-        # search_input.send_keys(phrase + Keys.RETURN)
-
+     
