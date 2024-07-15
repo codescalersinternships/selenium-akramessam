@@ -17,4 +17,4 @@
 ## How to run
 
 ### simply run the following command
-`python3 -m pytest`
+`python3 -m -v pytest`
