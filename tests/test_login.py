@@ -1,6 +1,6 @@
 
 from pages.login import LoginPage
-from pages.actual import Actual
+from pages.checkLoginSucceeded import Actual
 import pytest
 
 # USERNAME = 'standard_user'

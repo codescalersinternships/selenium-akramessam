@@ -1,6 +1,6 @@
 
 class Actual:
-  HOME_PAGE = 'https://www.saucedemo.com/inventory.html'
+  INVENTORY_PAGE = 'https://www.saucedemo.com/inventory.html'
 
 
   def __init__(self, browser):
@@ -8,7 +8,7 @@ class Actual:
 
   def check(self)->bool:
     curl = self.browser.current_url
-    if curl == self.HOME_PAGE:
+    if curl == self.INVENTORY_PAGE:
         return True
     else:
        return False
