@@ -1,6 +1,6 @@
 
 from pages.login import LoginPage
-from pages.checkLoginSucceeded import Actual
+from pages.checkLoginSucceeded import CheckLoginSucceded
 import pytest
 
 # USERNAME = 'standard_user'
@@ -13,7 +13,7 @@ def test_basic_login(browser,usr,pswd):
     login_page.load()
     login_page.login(usr,pswd)
     
-    actual = Actual(browser)
+    actual = CheckLoginSucceded(browser)
 
     assert actual.check() == True
   
