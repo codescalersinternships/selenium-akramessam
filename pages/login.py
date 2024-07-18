@@ -7,7 +7,7 @@ class LoginPage:
 
     # URL
 
-    URL = 'https://www.saucedemo.com/'
+    base_url = 'https://www.saucedemo.com/'
 
     # Locators
     
