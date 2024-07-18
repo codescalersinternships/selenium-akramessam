@@ -9,8 +9,8 @@ def browser():
   #options.add_extension('extension.crx')  # For Adding Extension
   driver = webdriver.Chrome(options=options)
 
-  # Make its calls wait up to 10 seconds for elements to appear
-  driver.implicitly_wait(10)
+  # Make its calls wait up to 30 seconds for elements to appear
+  driver.implicitly_wait(30)
 
 
   # Return the WebDriver instance for the setup
