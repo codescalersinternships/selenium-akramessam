@@ -1,0 +1,15 @@
+
+class CheckLoginSucceded:
+  inventory_page = 'https://www.saucedemo.com/inventory.html'
+
+
+  def __init__(self, browser):
+    self.browser = browser
+
+  def check(self)->bool:
+    curl = self.browser.current_url
+    if curl == self.inventory_page:
+        return True
+    else:
+       return False
+    
