@@ -6,6 +6,7 @@ from selenium import webdriver
 def browser():
   # Initialize the ChromeDriver instance with options
   options = webdriver.ChromeOptions()
+  options.add_argument("headless")
   #options.add_extension('extension.crx')  # For Adding Extension
   driver = webdriver.Chrome(options=options)
 
